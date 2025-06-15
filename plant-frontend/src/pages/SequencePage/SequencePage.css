@@ -1,0 +1,45 @@
+.sequence-page {
+  padding: 1rem;
+}
+
+.sequence-form {
+  max-width: 800px;
+}
+
+.sequence-list {
+  margin-top: 2rem;
+}
+
+.sequence-list h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.sequence-step {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  background: #f8f9fa;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.sequence-step:last-child {
+  margin-bottom: 1rem;
+}
+
+.sequence-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.button--primary {
+  background: #2ecc71;
+}
+
+.button--primary:hover {
+  background: #27ae60;
+} 

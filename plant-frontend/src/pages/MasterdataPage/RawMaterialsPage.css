@@ -1,0 +1,93 @@
+.raw-materials-page {
+  padding: 1rem 0;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+.raw-material-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.raw-material-form input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border 0.2s, box-shadow 0.2s;
+  min-width: 140px;
+  flex: 1 1 180px;
+}
+.raw-material-form input:focus {
+  border: 1.5px solid #1976d2;
+  box-shadow: 0 0 0 2px #e3f2fd;
+}
+.raw-material-form button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 1px 4px rgba(25, 118, 210, 0.08);
+  margin-left: 0.5rem;
+}
+.raw-material-form button:hover {
+  background: #0d47a1;
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 4px 12px rgba(25, 118, 210, 0.12);
+}
+.error {
+  color: #d32f2f;
+  margin-bottom: 1rem;
+  background: #ffebee;
+  border: 1px solid #ffcdd2;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+.raw-materials-actions {
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.import-label {
+  background: #1976d2;
+  color: #fff;
+  border-radius: 4px;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+  display: inline-block;
+  box-shadow: 0 1px 4px rgba(25, 118, 210, 0.08);
+}
+.import-label input[type="file"] {
+  display: none;
+}
+.import-label:hover {
+  background: #0d47a1;
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 4px 12px rgba(25, 118, 210, 0.12);
+}
+@media (max-width: 700px) {
+  .raw-materials-page {
+    padding: 0.5rem;
+  }
+  .raw-material-form {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  .raw-materials-actions {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+} 

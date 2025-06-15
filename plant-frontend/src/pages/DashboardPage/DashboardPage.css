@@ -1,0 +1,52 @@
+.dashboard-page {
+  padding: 1rem;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.card {
+  height: 100%;
+}
+
+.card h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.card-description {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.chart-placeholder {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  border-radius: 4px;
+  color: #666;
+}
+
+.button--primary {
+  background: #2ecc71;
+}
+
+.button--primary:hover {
+  background: #27ae60;
+}
+
+.profit-table {
+  margin-top: 1rem;
+}
+
+.profit-table .table td:last-child {
+  font-weight: 500;
+  color: #2ecc71;
+} 

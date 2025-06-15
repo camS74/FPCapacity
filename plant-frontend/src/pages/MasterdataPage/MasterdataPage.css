@@ -1,0 +1,25 @@
+.masterdata-page {
+  padding: 2rem;
+}
+.masterdata-nav {
+  margin-bottom: 1.5rem;
+}
+.masterdata-nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #1976d2;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.masterdata-nav a.active, .masterdata-nav a:hover {
+  background: #e3f2fd;
+  color: #0d47a1;
+}
+.masterdata-content {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 2rem;
+} 
